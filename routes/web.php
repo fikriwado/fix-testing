@@ -10,10 +10,10 @@ Route::get('iam', function () {
 
 Route::get('fixwad', function () {
     // return BlogService::all();
-    return HomeService::all();
+    return BlogService::all();
 });
 
 Route::get('pertestingan', function () {
     // return BlogService::all();
-    return BlogService::all();
+    return HomeService::all();
 });
