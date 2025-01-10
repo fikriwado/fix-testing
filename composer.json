@@ -31,8 +31,8 @@
         "iam/view": "dev-dev"
     },
     "scripts": {
-        "post-root-package-install": [
-            "@php -r \"exec('composer require iam/view:dev-dev');\""
+        "post-autoload-dump": [
+            "@php -r \"echo 'Testing post-autoload-dump script execution...\\n';\""
         ]
     }
 }
