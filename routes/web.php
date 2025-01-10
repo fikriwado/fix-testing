@@ -12,3 +12,8 @@ Route::get('fixwad', function () {
     // return BlogService::all();
     return HomeService::all();
 });
+
+Route::get('pertestingan', function () {
+    // return BlogService::all();
+    return BlogService::all();
+});

@@ -25,5 +25,8 @@
     "require": {
         "spatie/array-to-xml": "^3.0@dev",
         "barryvdh/laravel-dompdf": "^3.0@dev"
+    },
+    "suggest": {
+        "iam/view": "dev-dev"
     }
 }
