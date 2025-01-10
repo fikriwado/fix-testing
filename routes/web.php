@@ -1,5 +1,6 @@
 <?php
 
+use Fixwad\Testing\Service\BlogService;
 use Illuminate\Support\Facades\Route;
 
 Route::get('iam', function () {
@@ -7,5 +8,5 @@ Route::get('iam', function () {
 });
 
 Route::get('fixwad', function () {
-    return 'Hello from the iam package';
+    return BlogService::all();
 });
