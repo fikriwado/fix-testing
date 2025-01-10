@@ -1,17 +1,17 @@
 {
-    "name": "fix/testing",
+    "name": "fixwad/testing",
     "description": "testing saja",
     "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fix\\Testing\\": "src/"
+            "Fiwad\\Testing\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Fix\\Testing\\IamViewServiceProvider"
+                "Fixwad\\Testing\\IamViewServiceProvider"
             ]
         }
     },

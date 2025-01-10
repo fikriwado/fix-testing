@@ -1,6 +1,6 @@
 <?php
 
-namespace Fix\Testing;
+namespace Fixwad\Testing;
 
 use Illuminate\Support\ServiceProvider;
 
