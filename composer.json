@@ -1,17 +1,17 @@
 {
-    "name": "sm/testing",
+    "name": "fix/testing",
     "description": "testing saja",
     "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sm\\Testing\\": "src/"
+            "Fix\\Testing\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sm\\Testing\\IamViewServiceProvider"
+                "Fix\\Testing\\IamViewServiceProvider"
             ]
         }
     },
