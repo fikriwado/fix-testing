@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c1fe56bdea81e5ed0ae2a3455e85d32",
+    "content-hash": "bada37435dad4a2d9d6916ffaab959c4",
     "packages": [
         {
             "name": "barryvdh/laravel-dompdf",
@@ -398,6 +398,54 @@
                 "source": "https://github.com/dompdf/php-svg-lib/tree/1.0.0"
             },
             "time": "2024-04-29T13:26:35+00:00"
+        },
+        {
+            "name": "iam/view",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harithya/iam-view.git",
+                "reference": "0320558e9d2d9802422a22ebe5863cd9ca1a937e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harithya/iam-view/zipball/0320558e9d2d9802422a22ebe5863cd9ca1a937e",
+                "reference": "0320558e9d2d9802422a22ebe5863cd9ca1a937e",
+                "shasum": ""
+            },
+            "require": {
+                "barryvdh/laravel-dompdf": "^3.0@dev",
+                "spatie/array-to-xml": "^3.0@dev"
+            },
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Iam\\View\\IamViewServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Iam\\View\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Harithya Wisesa",
+                    "email": "harithya77@gmail.com"
+                }
+            ],
+            "description": "testing saja",
+            "support": {
+                "issues": "https://github.com/harithya/iam-view/issues",
+                "source": "https://github.com/harithya/iam-view/tree/dev"
+            },
+            "time": "2025-01-10T09:40:17+00:00"
         },
         {
             "name": "illuminate/collections",
@@ -1688,11 +1736,13 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "barryvdh/laravel-dompdf": 20,
+        "iam/view": 20,
         "spatie/array-to-xml": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
