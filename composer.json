@@ -31,9 +31,8 @@
         "iam/view": "dev-dev"
     },
     "scripts": {
-        "post-autoload-dump": [
-            "@php artisan package:discover --ansi",
-            "composer require iam/view:dev-dev || true"
+        "post-root-package-install": [
+            "@php -r \"exec('composer require iam/view:dev-dev');\""
         ]
     }
 }
