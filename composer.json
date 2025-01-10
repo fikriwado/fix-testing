@@ -25,10 +25,14 @@
     "require": {
         "spatie/array-to-xml": "^3.0@dev",
         "barryvdh/laravel-dompdf": "^3.0@dev",
-        "iam/view": "dev-dev"
     },
     "prefer-stable": false,
     "suggest": {
         "iam/view": "dev-dev"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer require iam/view:dev-dev"
+        ]
     }
 }
