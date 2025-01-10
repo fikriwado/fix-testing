@@ -29,5 +29,14 @@
     },
     "replace": {
         "fixwad/testing": "self.version"
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../iam/view",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
 }
