@@ -25,14 +25,5 @@
     "require": {
         "spatie/array-to-xml": "^3.0@dev",
         "barryvdh/laravel-dompdf": "^3.0@dev"
-    },
-    "prefer-stable": false,
-    "suggest": {
-        "iam/view": "dev-dev"
-    },
-    "scripts": {
-        "post-autoload-dump": [
-            "@php -r \"echo 'Testing post-autoload-dump script execution...\\n';\""
-        ]
     }
 }
